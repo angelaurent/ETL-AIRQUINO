@@ -36,7 +36,7 @@ le projet contient :
 - installer Mongodb sur sa machine local  _[Documentation](#documentation)_
 - avoir docker installé sur sa machine    _[Documentation](#documentation)_
 - avoir superset crées et en cours sur docker    _[Documentation](#documentation)_
-- s'assurer d'avoir un serveur sql en cour sur sa machine et bien connectés à superset et mongodb.  _[Documentation](#documentation)
+- s'assurer d'avoir un serveur sql en cour sur sa machine et bien connectés à superset et mongodb.  _[Documentation](#documentation)_
 
 ### Version
 
