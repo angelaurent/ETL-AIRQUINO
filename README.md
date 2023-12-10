@@ -8,14 +8,14 @@ Ce projet vise à extraire, transformer et charger les données de qualité de l
 
 le projet contient :
 
-- 4 scripts python contenus dans le **dossier scripts**:
-    1. **extract.py** qui contient une fonction python pour l'extraction
-    2. **transform.py** qui contient une fonction python qui aggrege et calcule les moyennes des variables CO et PM2.5
-    3. **load.py** qui contient une fonction qui permet la connexion entre mongo et python enfin y insere mes donnees.
-    4. **etl.py** qui est mon fichier principal pour l'application des fonctions definies
-- un dossier **IMAGE DASHBOARD** comprenant les images des dashboard de nos deux stations
-- fichier **reponse aux questions** qui repond aux questions demandées dans le projet
-- et un **README.md** qui contient la documentation du projet
+1. 4 scripts python contenus dans le **dossier scripts**:
+    - **extract.py** qui contient une fonction python pour l'extraction
+    - **transform.py** qui contient une fonction python qui aggrege et calcule les moyennes des variables CO et PM2.5
+    - **load.py** qui contient une fonction qui permet la connexion entre mongo et python enfin y insere mes donnees.
+    - **etl.py** qui est mon fichier principal pour l'application des fonctions definies
+2. un dossier **IMAGE DASHBOARD** comprenant les images des dashboard de nos deux stations
+3. fichier **reponse aux questions** qui repond aux questions demandées dans le projet
+4. et un **README.md** qui contient la documentation du projet
 
 ## Table des matières
 
