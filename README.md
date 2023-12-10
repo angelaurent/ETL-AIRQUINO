@@ -83,11 +83,17 @@ df['timestamp'] = pd.to_datetime(df['timestamp'])
 1. cloner le projet et l'enregistrer dans un dossier sur votre machine
 2. ouvrir un terminal
 3. se deplacer a la racine du projet enregistré sur votre machine
-4. s'assurer d'etre dans scripts avant de lancer le projet (**cd ETL/scripts**)
-5. lancer "etl.py" et laisser la magie s'operer (**python etl.py**)
+4. s'assurer d'etre dans scripts avant de lancer le projet
+ ```bash
+cd ETL/scripts
+```
+6. lancer "etl.py" et laisser la magie s'operer
+```bash
+ python etl.py
+```
 **(vous pouvez modifier vos acces de connexion a mongodb ainsi que l'URL de votre API selon vos besoins dans le fichier etl.py)**
-6. pour plus de confirmation ouvrez mongodb et vous verrez vos base de donnees ainsi que vos collection.
-7. ouvrez superset et amusez vous a creer votre dashboard avec les données obtenues. 
+7. pour plus de confirmation ouvrez mongodb et vous verrez vos base de donnees ainsi que vos collection.
+8. ouvrez superset et amusez vous a creer votre dashboard avec les données obtenues. 
 
 ### Documentation
 
