@@ -1,0 +1,25 @@
+## Quelle serait votre stratégie de mise en production de votre ETL?
+
+#### 1. COMPRENDRE LE PROJET DEMANDE
+
+La première étape consiste à définir les exigences de notre ETL. 
+
+#### 2. Développement de l'ETL
+
+1. utiliser un environnement virtuel pour gerer les dependances de notre projet.
+
+2. utiliser un fichier de configuration externe pour stocker les parametres soit de connexion à une bd ou d'une API...
+
+3. utiliser un outil de planifaction de taches comme airflow afin d'automatiser l'execution periodique de notre etl
+
+4. utiliser un outil de controle de version comme git afin de suivre les modifications apportées à notre etl
+
+5. mettre en place des systeme de sauvegardes reguliers afin de faciliter la reprise en cas de pannes.
+
+6. veuillez à ce que l'acces à notre etl soit securisé
+
+
+
+## Quelle serait votre stratégie pour declencher votre ETL automatiquement chaque heure ?
+
+on pourrait utiliser airflow pour declencher notre ETL automatiquement chaque heure 
