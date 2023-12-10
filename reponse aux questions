@@ -18,8 +18,6 @@ La première étape consiste à définir les exigences de notre ETL.
 
 6. veuillez à ce que l'acces à notre etl soit securisé
 
-
-
 ## Quelle serait votre stratégie pour declencher votre ETL automatiquement chaque heure ?
 
 on pourrait utiliser airflow pour declencher notre ETL automatiquement chaque heure 
